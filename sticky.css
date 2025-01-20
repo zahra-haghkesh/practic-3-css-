@@ -1,0 +1,8 @@
+
+.nav {
+    background-color: aquamarine;
+    height: 30px;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+}
