@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.parent {
+   position: relative;
+}
+
+.circle {
+
+    background-color: rgb(239, 233, 34);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 200px;
+    left: 600px;
+    position: absolute;
+ } 
+
+ .petal-1 {
+    
+    background-color: rgb(140, 31, 4);
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    position: absolute;
+ }
+
+ .petal-2 {
+    
+   background-color: rgb(140, 31, 4);
+   width: 150px;
+   height: 150px;
+   border-top-right-radius: 150px;
+   border-bottom-left-radius: 150px;
+   position: absolute;
+}
+
+.c1 {top: 60px; left: 665px; }
+.c3 {top: 270px; left: 665px; }
+.c2 {top: 270px; left: 465px;}
+.c4 {top: 60px; left: 465px;}
+
+ 
+ .leaf {
+    
+    background-color: rgb(11, 82, 18);
+    width: 150px;
+    height: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    position: absolute;
+    top: 450px;
+    left: 485px;
+ }
+ .stem {
+
+   background-color:rgb(11, 82, 18) ;
+   width: 10px;
+   height: 500px;
+   position: absolute;
+   top: 276px;
+   left: 635px;
+ }
