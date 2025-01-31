@@ -77,8 +77,7 @@ span {
     transition: all 2s 2s;
 }
 .s12:hover {
-    transform: perspective(200px) skew(-30deg) scalex(1.5);
-    transform-origin: bottom left;
+    transform: skew(-30deg) scale(1.5) translatey(-20px);
     transition: ease 2s 2s;
     
     
